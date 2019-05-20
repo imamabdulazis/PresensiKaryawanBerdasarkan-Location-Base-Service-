@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="gi.pelatihan.odt.presensikaryawan"
+    android:versionCode="4"
+    android:versionName="0.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="gi.pelatihan.odt.presensikaryawan.CutiListActivity" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.CutiPengajuanActivity"
+            android:label="@string/title_pengajuan_cuti" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.ProfilActivity"
+            android:label="@string/title_edit_profil" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.TentangActivity"
+            android:label="@string/title_tentang_aplikasi" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.IzinListActivity"
+            android:label="@string/title_laporan_pengajuan_izin" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.IzinPengajuanActivity"
+            android:label="@string/title_pengajuan_izin" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.NotaListActivity"
+            android:label="@string/title_laporan_klaim_nota" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.NotaPengajuanActivity"
+            android:label="@string/title_klaim_nota" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.PresensiActivity"
+            android:parentActivityName="gi.pelatihan.odt.presensikaryawan.BerandaActivity" />
+        <activity android:name="gi.pelatihan.odt.presensikaryawan.RegisterActivity" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.BerandaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="gi.pelatihan.odt.presensikaryawan.LoginActivity" />
+        <activity
+            android:name="gi.pelatihan.odt.presensikaryawan.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="gi.pelatihan.odt.presensikaryawan.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KETERANGAN PULANG"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/etpulangawal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="Keterangan Izin Pulang Awal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Simpan"
+        android:id="@+id/btpulangawal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffd3ffe5"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</LinearLayout>

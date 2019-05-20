@@ -1,0 +1,4 @@
+#Wed May 01 19:35:02 WIB 2019
+base.0=/Volumes/DATA/Magang/aan_odt_android/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

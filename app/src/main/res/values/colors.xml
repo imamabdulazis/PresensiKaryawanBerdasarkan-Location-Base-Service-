@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#052345</color>
+    <color name="colorPrimaryDark">#052345</color>
+    <color name="colorAccent">#073763</color>
+    <color name="login_back">#000000</color>
+    <color name="red">#CDDC39</color>
+    <color name="lightgray">#B2EDEDED</color>
+    <color name="grey">#B292B4E9</color>
+    <color name="trans_10">#0892B4E9</color>
+</resources>

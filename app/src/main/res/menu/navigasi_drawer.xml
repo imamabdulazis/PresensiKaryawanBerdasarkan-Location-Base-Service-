@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_pres_lap"
+            android:icon="@drawable/ic_laporan"
+            android:title="Laporan Presensi" />
+
+
+    </group>
+
+    <item android:title="Klaim Nota">
+        <menu>
+            <item
+                android:id="@+id/nav_nota"
+                android:icon="@drawable/ic_bbm"
+                android:title="Klaim Nota" />
+            <item
+                android:id="@+id/nav_nota_lap"
+                android:icon="@drawable/ic_laporan"
+                android:title="Laporan Klaim Nota" />
+        </menu>
+    </item>
+
+    <item android:title="Pengajuan Izin">
+        <menu>
+            <item
+                android:id="@+id/nav_izin"
+                android:icon="@drawable/ic_izin"
+                android:title="Pengajuan Izin" />
+            <item
+                android:id="@+id/nav_izin_lap"
+                android:icon="@drawable/ic_laporan"
+                android:title="Laporan Izin" />
+        </menu>
+    </item>
+
+    <item android:title="Pengajuan Cuti">
+        <menu>
+            <item
+                android:id="@+id/nav_cuti"
+                android:icon="@drawable/ic_izin"
+                android:title="Pengajuan Cuti" />
+            <item
+                android:id="@+id/nav_cuti_lap"
+                android:icon="@drawable/ic_laporan"
+                android:title="Laporan Cuti" />
+        </menu>
+    </item>
+
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_ttg"
+                android:icon="@drawable/ic_tentang"
+                android:title="Tentang Aplikasi" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

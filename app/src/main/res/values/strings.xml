@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Presensi Karyawan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="register_btn">Belum punya akun? Klik Daftar</string>
+
+    <string name="bulan_prompt">Silahkan Pilih Bulan</string>
+    <string name="title_laporan_klaim_nota">Laporan Klaim Nota</string>
+    <string name="title_pengajuan_izin">Pengajuan Izin</string>
+    <string name="title_klaim_nota">Klaim Nota</string>
+    <string name="title_laporan_pengajuan_izin">Laporan Pengajuan Izin</string>
+    <string name="title_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="title_edit_profil">Edit Profil</string>
+    <string name="title_pengajuan_cuti">Pengajuan Cuti</string>
+    <string name="pilih_tanggal_cuti">Pilih Tanggal Cuti</string>
+    <string name="alasan_cuti">Alasan Cuti</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/lltop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvpopjudul"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Pilih Tanggal Cuti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_tanggal"/>
+    </LinearLayout>
+
+    <com.squareup.timessquare.CalendarPickerView
+        android:layout_below="@+id/lltop"
+        android:layout_above="@+id/llbot"
+        android:id="@+id/cvpopcalender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/llbot"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/button_tanggal"
+            android:id="@+id/btpopsimpan"
+            android:textColor="@android:color/white"
+            android:text="Simpan Tangggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

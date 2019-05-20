@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotaPengajuanActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Ambil Foto Bukti"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Spinner
+        android:id="@+id/spjenisklaimnota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/imgBBM"
+        android:layout_below="@+id/tv"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/btnCamera"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btambilgambarbbm"
+        android:layout_below="@+id/imgBBM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Ambil Gambar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btsubmitbbm"
+        android:layout_below="@+id/imgBBM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+  </LinearLayout>
