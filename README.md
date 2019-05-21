@@ -1,2 +1,2 @@
-# Aplikasi presenesi Karyawan
+# Aplikasi presensi Karyawan
 
